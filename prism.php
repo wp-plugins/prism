@@ -1,16 +1,16 @@
 <?php
 /**
-* @package PrismJS Code Highlighter
+* @package Prism Syntax Highlighter for WordPress
 * @author Nicolas Jonas
 * @license GPL-3.0
 * @link http://nextgenthemes.com/plugins/prism
 * @copyright Copyright (c) 2014 Nicolas Jonas
 *
 * @wordpress-plugin
-* Plugin Name: Prism for WP
+* Plugin Name: Prism Syntax Highlighter for WordPress
 * Plugin URI: http://nextgenthemes.com/plugins/prism
 * Description: Most minimalistic yet most configurabale Prismjs integration plugin, includes shortcode for custom field content (detached)
-* Version: 0.9.5
+* Version: 0.9.6
 * Author: Nicolas Jonas
 * Author URI: http://nicolasjonas.com
 * License: GPL-3.0
@@ -135,6 +135,7 @@ class Prism {
 			'data-start'       => $data_start,
 			'data-line'        => $data_line,
 			'data-line-offset' => $data_line_offset,
+			'data-manual'      => $data_manual,
 		);
 
 		$code_attr = array(
