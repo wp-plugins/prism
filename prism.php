@@ -1,21 +1,22 @@
 <?php
 /**
-* @package Prism Syntax Highlighter for WordPress
-* @author Nicolas Jonas
-* @license GPL-3.0
-* @link http://nextgenthemes.com/plugins/prism
-* @copyright Copyright (c) 2014 Nicolas Jonas
+* @package   Prism Syntax Highlighter for WordPress
+* @author    Nicolas Jonas
+* @license   GPL-3.0
+* @link      http://nextgenthemes.com/plugins/prism
+* @copyright Copyright (c) 2015 Nicolas Jonas
 *
 * @wordpress-plugin
-* Plugin Name: Prism Syntax Highlighter for WordPress
-* Plugin URI: http://nextgenthemes.com/plugins/prism
-* Description: Most minimalistic yet most configurabale Prismjs integration plugin, includes shortcode for custom field content (detached)
-* Version: 0.9.6
-* Author: Nicolas Jonas
-* Author URI: http://nicolasjonas.com
-* License: GPL-3.0
-* License URI: http://www.gnu.org/licenses/gpl-3.0.html
+* Plugin Name:       Prism Syntax Highlighter for WordPress
+* Plugin URI:        http://nextgenthemes.com/plugins/prism
+* Description:       Most minimalistic yet most configurabale Prismjs integration plugin, includes shortcode for custom field content (detached)
+* Version:           1.0.0
+* Author:            Nicolas Jonas
+* Author URI:        https://nextgenthemes.com
+* License:           GPL-3.0
+* License URI:       https://www.gnu.org/licenses/gpl-3.0.html
 * GitHub Plugin URI: https://github.com/nextgenthemes/prism
+* 
 * WordPress-Plugin-Boilerplate: v2.6.1 (Only parts of it)
 */
 
@@ -30,7 +31,7 @@ class Prism {
 
 	protected static $instance = null;
 
-	const PRISM_VERSION = '20140418';
+	const PRISM_VERSION = '20150420';
 
 	private function __construct() {
 
